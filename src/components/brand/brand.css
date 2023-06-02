@@ -1,0 +1,153 @@
+.brand-heading{
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 66px;
+    text-align: center;
+    margin-top: 297px;
+    margin-bottom: 36px;
+}
+
+.vector-img{
+    position: absolute;
+    z-index: -1;
+    aspect-ratio: 1/1;
+}
+
+.brand-img{
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    height: 180%;
+    z-index: -2;
+}
+
+.prof-img{
+    top: 204px;
+    left: 186px;
+    width: 70px;
+    height: 9%;
+}
+
+.suitcase-img{
+    top: 606px;
+    left: 97px;
+    width: 90px;
+    height: 12%;
+}
+
+.book-img{
+    top: 211px;
+    right: 259px;
+    width: 90px;
+    height: 12%;
+}
+
+.building-img{
+    top: 700px;
+    right: 160px;
+    width: 90px;
+    height: 12%;
+}
+
+.brand-subheading{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+.brand-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-button{
+    background-color: var(--color-green);
+    border-radius: 10px;
+    border: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    width: 151px;
+    height: 52px;
+    transition: all 0.3s ease-in-out;
+}
+
+.demo-btn{
+    background-color: #fff;
+    border: 1px solid var(--color-green);
+}
+
+.brand-button:hover{
+    transform: scale(1.1);
+}
+
+/* media query for screens smaller than 1100px */
+@media (max-width: 1100px) {
+    .brand-heading{
+        font-size: 3.5rem;
+        margin-top: 200px;
+    }
+    .brand-subheading{
+        font-size: 1.2rem;
+    }
+    .vector-img{
+        width: 120px;
+    }
+    .brand-img{
+        top: 0px;
+        height: 90%;
+    }
+}
+
+/* media query for screens smaller than 768px */
+@media (max-width: 768px) {
+    .brand-img{
+        display: none;
+    }
+    .brand-heading{
+        margin-bottom: 20px;
+    }
+    .brand-button{
+        font-size: 1rem;
+    }
+    .vector-img{
+        display: none;
+    }
+}
+
+/* media query for screens smaller than 576px */
+@media (max-width: 576px) {
+    .brand-heading{
+        font-size: 3rem;
+    }
+    .brand-subheading{
+        font-size: 1rem;
+    }
+    .brand-button-container{
+        margin-bottom: 10px;
+    }
+}
+
+/* media query for screens smaller than 400px */
+@media (max-width: 400px) {
+    .brand-heading{
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+    }
+    
+}
