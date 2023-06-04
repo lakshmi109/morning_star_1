@@ -137,6 +137,7 @@
     align-items: center;
     display: flex;
     flex-wrap: row;
+    list-style: none;
 }
 @media(max-width: 850px){
     .footerlower ul{

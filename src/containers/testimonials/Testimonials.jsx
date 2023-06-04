@@ -37,40 +37,35 @@ const Testimonials = (props) => {
               <TestimonialCard
                 name={"John Smith"}
                 image={"/path/to/image.jpg"}
-                content={"Wow! This testimonial card is so amazing! I would like to use it in my project!"}
-                project={"Testimonial card"}
+                content={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, atque obcaecati fugiat ipsam nisi architecto quam eligendi recusandae ipsum vero reiciendis mollitia illo harum fugit tenetur necessitatibus dicta quaerat asperiores?"}
               />
             </div>
             <div className="testimonial-card">
               <TestimonialCard
                 name={"John Smith"}
                 image={"/path/to/image.jpg"}
-                content={"Wow! This testimonial card is so amazing! I would like to use it in my project!"}
-                project={"Testimonial card"}
+                content={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, atque obcaecati fugiat ipsam nisi architecto quam eligendi recusandae ipsum vero reiciendis mollitia illo harum fugit tenetur necessitatibus dicta quaerat asperiores?"}
               />
             </div>
             <div className="testimonial-card">
               <TestimonialCard
                 name={"John Smith"}
                 image={"/path/to/image.jpg"}
-                content={"Wow! This testimonial card is so amazing! I would like to use it in my project!"}
-                project={"Testimonial card"}
+                content={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, atque obcaecati fugiat ipsam nisi architecto quam eligendi recusandae ipsum vero reiciendis mollitia illo harum fugit tenetur necessitatibus dicta quaerat asperiores?"}
               />
             </div>
             <div className="testimonial-card">
               <TestimonialCard
                 name={"John Smith"}
                 image={"/path/to/image.jpg"}
-                content={"Wow! This testimonial card is so amazing! I would like to use it in my project!"}
-                project={"Testimonial card"}
+                content={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, atque obcaecati fugiat ipsam nisi architecto quam eligendi recusandae ipsum vero reiciendis mollitia illo harum fugit tenetur necessitatibus dicta quaerat asperiores?"}
               />
             </div>
             <div className="testimonial-card">
               <TestimonialCard
                 name={"John Smith"}
                 image={"/path/to/image.jpg"}
-                content={"Wow! This testimonial card is so amazing! I would like to use it in my project!"}
-                project={"Testimonial card"}
+                content={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, atque obcaecati fugiat ipsam nisi architecto quam eligendi recusandae ipsum vero reiciendis mollitia illo harum fugit tenetur necessitatibus dicta quaerat asperiores?"}
               />
             </div>
           </Carousel>

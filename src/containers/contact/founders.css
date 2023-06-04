@@ -1,0 +1,83 @@
+:root{
+    --founders--theme: #4ee1a0;
+    --founders--fontcolor:#1E272E;
+    --founders--paratxtcolor: #5a6273;
+    --founders--white: white;
+    --founders--iconbox: #c4c7c5;
+    
+    --founders-buttontext: 15px;
+    --founders-title: 55px;
+    --founders-heading: 30px;
+    --founders-para:18px;
+}
+@media(max-width: 850px){
+    :root{
+        --founders-title: 26px;
+        --founders-para: 16px;
+        --founders-heading: 26px;
+    }
+}
+
+.founderscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    color: var(--founders--fontcolor);
+    background-color: var(--founders--white);
+    margin-bottom: 100px;
+}
+
+.foundersgreenbox{
+    height: 450px;
+    display: flex;
+    width: 30%;
+    background-color: var(--founders--theme);
+}
+@media(max-width: 850px){
+    .foundersgreenbox{
+        width: 40%;
+        height: 350px;
+    }
+}
+
+.foundersimagebox{
+    align-items: center;
+    justify-content: center;
+}
+
+.foundersimage{
+    margin-left: -300px;
+    max-width: 450px;
+    max-height: 450px;
+}@media(max-width: 850px){
+    .foundersimage{
+        margin-left: -140px;
+        max-width: 350px;
+        max-height: 350px;
+    }
+}
+
+
+
+
+.foundersinfo{
+    width: 50%;
+    padding: 0px 30px 0px 30px;
+    text-align: start;
+}
+@media(max-width: 850px){
+    .foundersinfo{
+        width: 90%;
+    }
+}
+
+.foundersinfo h2{
+    font-weight: 750;
+    font-size: var(--founders-heading);
+}
+.foundersinfo p{
+    color: var(--founders--paratxtcolor);
+    font-size: var(--founders-para);
+}
