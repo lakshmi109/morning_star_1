@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Course } from './containers'
 import { Navbar, Footer } from './components'
@@ -6,7 +6,7 @@ import courses from './assets/course-main/constants';
 import './App.css'
 import Landing from './containers/landing/Landing';
 import Contact from './containers/contact/Contact';
-import React, { useEffect } from 'react';
+
 
 const App = () => {
   
