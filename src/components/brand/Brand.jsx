@@ -1,5 +1,6 @@
 import React from 'react'
 import './brand.css'
+import Form from '../../containers/contact/Form'
 
 const Brand = () => {
   return (
@@ -20,10 +21,11 @@ const Brand = () => {
           <p>Get trained for top tech jobs by industry experts.</p>
         </div>
         <div className='brand-button-container'>
-          <button className='brand-button'>Get Started</button>
-          <button className='brand-button demo-btn'>Book Demo</button>
+          <a href="/register"><button className='brand-button'>Get Started</button></a>
+          <a href="/contact"><button className='brand-button demo-btn'>Book Demo</button></a>
         </div>
       </div>
+      <Form />
     </>
   )
 }

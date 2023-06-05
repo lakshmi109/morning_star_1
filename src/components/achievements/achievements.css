@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 1rem 2rem;
+    margin-top: -400px;
 }
 
 .achievement-container > p{
@@ -76,6 +77,9 @@
 
 /* media query for maxwidth 1100px */
 @media (max-width: 1100px) {
+    .achievement-container{
+        margin-top: 0;
+    }
     .achievement-container > p{
         font-size: 1.5rem;
         margin-top: 200px;

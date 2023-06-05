@@ -8,7 +8,9 @@ import Investors from './Investors'
 const Contactuspage = () => {
   return (
     <div className='contactuspage'>
+      <div className='form-aboutus-container'>
         <Form/>
+      </div>
         <Founders/>
         <Whatwedo/>
         <Investors/>

@@ -6,6 +6,7 @@ import courses from './assets/course-main/constants';
 import './App.css'
 import Landing from './containers/landing/Landing';
 import Contact from './containers/contact/Contact';
+import Register from './components/register/Register';
 
 
 const App = () => {
@@ -44,6 +45,7 @@ const App = () => {
         <Route exact path="/" element={<Landing />} />
         <Route exact path="/course" element={<Course courses={courses}/>} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/register" element={<Register />} />
       </Routes>
       <Footer />
     </Router>
